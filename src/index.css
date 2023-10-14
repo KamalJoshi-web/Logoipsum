@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg-color {
+  background: linear-gradient(
+    74.71deg,
+    #feddee 0%,
+    #fcf6fc 31.77%,
+    #c5eaed 64.58%,
+    #fdddfe 100%
+  );
+}
+
+.custom-text-color {
+  background: linear-gradient(90.97deg, #0076ce 26.63%, #9400d3 65.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-bg-color-dark {
+  background: linear-gradient(90.97deg, #0076ce 26.63%, #9400d3 65.81%);
+}
